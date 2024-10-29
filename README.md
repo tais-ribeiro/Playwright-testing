@@ -21,13 +21,10 @@ Mac/Linux:
 source venv/bin/activate
 
 ### Instalação das Dependências
-Depois de ativar o ambiente virtual, instale as dependências necessárias usando o requirements.txt:
 pip install -r requirements.txt
 
 ### Instalação dos Navegadores
-Instale os navegadores necessários para o Playwright:
 playwright install
 
 ### Executando os Testes
-Para executar os testes, use o seguinte comando:
 python tests/form_test.py
