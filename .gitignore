@@ -1,27 +1,7 @@
 __pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-*.so
-*.egg-info/
-*.egg
-*.whl
 
-venv/
-ENV/
 env/
 lib/
 include/
 Scripts/
 pyvenv.cfg
-
-*.log
-
-/build/
-/dist/
-*.egg-info/
-*.egg
-*.whl
-
-*.DS_Store
-Thumbs.db
