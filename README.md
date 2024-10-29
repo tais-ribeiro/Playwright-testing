@@ -10,31 +10,21 @@ Antes de começar, você precisa ter o Python instalado em sua máquina. Você p
 
 Recomenda-se criar um ambiente virtual para isolar as dependências do projeto. Para fazer isso, execute:
 
-
-Crie o ambiente virtual
+#### Crie o ambiente virtual
 python -m venv venv
 
-Ative o ambiente virtual
+##### Ative o ambiente virtual
 Windows
 venv\Scripts\activate
 
 Mac/Linux
 source venv/bin/activate
 
-Instalação das Dependências
+###### Instalação das Dependências
 pip install -r requirements.txt
 
-Instalação dos Navegadores
+####### Instalação dos Navegadores
 playwright install
 
-Estrutura do Projeto
-PlaywrightPython/
-│
-├── venv/                # Ambiente virtual
-├── tests/               # Pasta contendo os testes
-│   └── form_test.py     # Exemplo de teste
-├── requirements.txt      # Dependências do projeto
-└── README.md             # Este arquivo
-
-Executando os Testes
+######## Executando os Testes
 python tests/form_test.py
