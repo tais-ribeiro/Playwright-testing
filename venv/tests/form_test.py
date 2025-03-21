@@ -9,19 +9,15 @@ def run_test():
             browser = p.chromium.launch(headless=False)
             page = browser.new_page()
             page.goto("https://phptravels.com/demo/")
-
-            # Gerar dados randômicos
+            
             data = generate_random_data()
 
-            # Criar uma instância da página de formulário
             form_page = FormPage(page)
 
-            # Preencher o formulário
             form_page.fill_form(data)
             form_page.select_random_country()
             form_page.fill_result()
 
-            # Clicar no botão de submit
             form_page.submit_form()
             time.sleep(30)
 
